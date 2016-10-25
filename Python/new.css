@@ -1,0 +1,69 @@
+section{
+  border: 1px solid blue;
+  display: -webkit-box;
+  -webkit-box-pack:center;
+  -webkit-box-orient:vertical;
+
+}
+body{
+  background: #8EE5EE;
+}
+#momy{
+  display: -webkit-box;
+  -webkit-box-orient:horizontal;
+  -webkit-box-pack:center;
+  -webkit-box-flex:1;
+  padding: 10px;
+  width: 700px;
+  height: 100px
+}
+#kid1{
+  border: 2px solid red;
+  background: green;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  -webkit-box-flex:1;
+  -webkit-border-radius:25px;
+  -webkit-box-shadow:rgb(110,110,110) 10px 10px 10px;
+}
+#kid2{
+  border: 2px solid red;
+  background: -webkit-radial-gradient(center,circle, red 0%, orange 50%);
+  padding: 20px;
+  margin: 10px;
+  -webkit-box-flex:1;
+  -webkit-border-radius:25px;
+  -webkit-box-shadow:rgb(110,110,110) 10px 10px 10px;
+}
+#kid3{
+  border: 2px solid red;
+  background:-webkit-linear-gradient(45deg,black,white);
+  padding: 20px;
+  margin: 10px;
+  -webkit-box-flex:1;
+  -webkit-box-shadow:rgb(110,110,110) 10px 10px 10px;
+}
+#kid4{
+  border: 2px solid red;
+  background: orange;
+  padding: 20px;
+  margin: 10px;
+  -webkit-box-flex:1;
+  -webkit-box-shadow:rgba(110,110,110,.7) 10px 10px 10px;
+  text-shadow: rgb(110,110,110) 3px 3px 3px;
+  -webkit-transition: -webkit-transform 1s;
+}
+
+#kid4:hover{
+  -webkit-transform:rotate(45deg);
+}
+#dady{
+  display: -webkit-box;
+  -webkit-box-orient:horizontal;
+  -webkit-box-pack:center;
+  -webkit-box-flex:1;
+  padding: 10px;
+  width: 700px;
+  height: 100px
+}
